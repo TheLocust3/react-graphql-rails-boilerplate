@@ -1,6 +1,7 @@
-# React+Redux+Rails Boilerplate
+# React+GraphQL+Rails Boilerplate
 A skeleton project that will get you up and running with:
 - Rails
 - React
-- Redux
+- GraphQL (WIP)
+- Relay (WIP)
 - React Router
