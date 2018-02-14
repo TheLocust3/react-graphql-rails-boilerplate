@@ -14,9 +14,15 @@
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-actions": "^2.2.1",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "relay": "^0.8.0-1"
   },
   "devDependencies": {
+    "babel-plugin-relay": "^1.4.1",
+    "relay-compiler": "^1.4.1",
     "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "relay": "relay-compiler --src ./app/javascript --schema ./schema.json --extensions=js --extensions=jsx"
   }
 }

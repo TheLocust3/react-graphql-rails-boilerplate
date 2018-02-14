@@ -21,11 +21,5 @@ Rails.application.routes.draw do
     get '/reset_password' => 'root#index', as: :edit_user_password
   end
 
-  namespace :api do
-    namespace :users do
-      get '' => 'users#index'
-    end
-  end
-
   get '*path', to: 'root#index'
 end
